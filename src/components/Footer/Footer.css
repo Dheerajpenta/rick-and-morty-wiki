@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(32, 35, 41);
+  color: rgb(158, 158, 158) !important;
+  padding: 2rem;
+  font-size: 0.8rem;
+}
+
+.footer-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-author-name {
+  color: white;
+}
+.footer-author-name:hover {
+  color: rgb(255, 152, 0);
+  text-decoration: underline;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 0.5rem;
+}
+.footer-icons a {
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+.footer-icons a:hover {
+  color: rgb(255, 152, 0);
+}

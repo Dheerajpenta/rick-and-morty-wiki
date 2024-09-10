@@ -1,0 +1,27 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+  gap: 1rem;
+}
+
+.select-box {
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(235, 235, 235);
+  font-size: 1rem;
+  outline: none;
+}
+.select-box:hover,
+.select-box:focus-within {
+  box-shadow: 0 0 5px 1px rgb(203, 203, 203);
+}
+
+@media (min-width: 640px) {
+  .select-box {
+    width: 80%;
+  }
+}

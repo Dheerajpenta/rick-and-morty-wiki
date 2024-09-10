@@ -1,0 +1,23 @@
+/* Header CSS */
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f8f9fa;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.heading {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,55 @@
+.character-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 245);
+  gap: 0.5rem;
+  width: 300px;
+}
+.character-card:hover,
+.character-card:focus-within {
+  box-shadow: 0 0 10px 5px rgb(182, 182, 182);
+}
+
+.character-image {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 0.8rem;
+}
+.character-details p {
+  color: rgb(84, 84, 84);
+}
+
+.unknown {
+  color: rgb(84, 84, 84);
+}
+.Alive {
+  color: rgb(12, 186, 0);
+}
+.Dead {
+  color: rgb(186, 0, 0);
+}
+
+.character-card a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.character-card a:hover {
+  text-decoration: underline;
+}
